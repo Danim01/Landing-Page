@@ -1,61 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/landig-page/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/landig-page/css/reset.css">
-    <link rel="stylesheet" href="/landig-page/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
-<body>
-    <header class="container page-header">
-        <div class="row container-fluid">
-            <h1 col-md-8><span>Arquitectura</span>Bosque</h1>
-            <a href="tel:01-800-0000-000" class="col-md-4, text-end">01-800-0000-000</a>
-            <nav class="nav navbar-expand-lg bg-body-tertiary justify-content-end">
-                <ul class="nav nav-underline justify-content-end">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Modelos</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Galería</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link" href="#">Contacto</a>
-                    </li>
-                  </ul>
-            </nav>
-            <div g-5>
-                <h2 class="text-end text-header">Tu casa en el bosque</h2>
-                <p class="text-end text-header">Construimos la casa de tus sueños</p>
+  </head>
+  <body>
+    <header class="page-header py-md-4" id="Inicio">
+      <div class="container">
+        <div class="row container-fluid p-md-4">
+          <div class="d-md-flex d-block py-5 justify-content-md-between">
+            <h1 class="display-4 text-white"><span>Arquitectura</span>Bosque</h1>
+            <div
+              class="col-md-6 d-flex flex-column align-items-center align-items-md-end">
+              <a
+                href="tel:01-800-0000-000"
+                class="text-end d-inline-md-block contact fs-4"
+              >01-800-0000-000
+              </a>
+              <nav class="m-2 pt-md-2 nav mt-md-0">
+                <ul class="d-flex flex-column flex-md-row nav-underline gap-0 list-unstyled">
+                  <li class="nav-item">
+                    <a
+                      class="nav-link active text-white py-2 py-md-3 px-3 px-md-4 fs-5"
+                      aria-current="page"
+                      href="#Inicio">
+                      Inicio
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white py-2 py-md-3 px-3 px-md-4 fs-5"
+                      href="#Nosotros">
+                      Nosotros
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white py-2 py-md-3 px-3 px-md-4 fs-5"
+                      href="#Modelos">
+                      Modelos
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white py-2 py-md-3 px-3 px-md-4 fs-5"
+                      href="#Galeria">
+                      Galería
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a
+                      class="nav-link text-white py-2 py-md-3 px-3 px-md-4 fs-5"
+                      href="#Contacto">
+                      Contacto
+                    </a>
+                  </li>
+                </ul>
+              </nav>
             </div>
+          </div>
+          <div class="text-nav">
+            <h2 class="text-center text-md-end text-header fs-1">Tu casa en el bosque</h2>
+            <p class="text-center text-md-end text-header lead">
+              Construimos la casa de tus sueños
+            </p>
+          </div>
         </div>
+      </div>
     </header>
-    <section class="container">
-        <div class="row">
-            <h2 class="text-center">Sobre Nosotros</h2>
-            <p class="text-center">Sint id proident mollit incididunt occaecat eiusmod aliquip quis. Deserunt labore
-                non ex id excepteur ea labore laboris ullamco tempor dolore mollit aliqua et.
-                In mollit tempor duis minim commodo tempor adipisicing ipsum officia culpa.
-            </p>
-            <br/>
-            <p class="text-center">
-                Id id minim laboris irure nisi qui laboris. Officia culpa officia id et voluptate
-                Lorem cillum deserunt qui adipisicing deserunt do quis qui. Laborum officia aliquip
-                culpa sunt enim sint laborum excepteur dolor veniam cillum deserunt dolore.
-            </p>
+    <section class="container" id="Nosotros">
+      <div class="row p-3 p-md-5">
+        <img src="img/nosotros.jpg" alt="Cabaña" class="nosotros col-md-6" />
+        <div class="col-md-6">
+          <h2 class="text-center">Sobre Nosotros</h2>
+          <p class="text-center fs-4 lead">
+            Sint id proident mollit incididunt occaecat eiusmod aliquip quis.
+            Deserunt labore non ex id excepteur ea labore laboris ullamco tempor
+            dolore mollit aliqua et. In mollit tempor duis minim commodo tempor
+            adipisicing ipsum officia culpa.
+          </p>
+          <br />
+          <p class="text-center fs-4 lead">
+            Id id minim laboris irure nisi qui laboris. Officia culpa officia id
+            et voluptate Lorem cillum deserunt qui adipisicing deserunt do quis
+            qui. Laborum officia aliquip culpa sunt enim sint laborum excepteur
+            dolor veniam cillum deserunt dolore.
+          </p>
         </div>
+      </div>
     </section>
-
+    <main class="container">
+      <h2 class="display-2 px-3 text-start py-md-3" id="Modelos">
+        Conoce nuestros 3 modelos
+      </h2>
+      <div class="row p-3 py-md-4 align-items-center">
+        <div class="col-md-5 pt-md-5 text-center">
+          <h3 class="text-black">Modelo Básico</h3>
+          <p class="fs-4 lead">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi
+            reiciendis deleniti architecto iure corporis suscipit nam veniam
+            sint esse blanditiis id, sunt corrupti maxime error rem magnam iste
+            quaerat non.
+          </p>
+          <button type="button" class="btn btn-outline-secondary my-3">
+            Más Información
+          </button>
+        </div>
+        <img src="img/modelo_basico.jpg" alt="Casa" class="col-md-7" />
+      </div>
+      <div class="row py-md-4 align-items-center">
+        <img src="img/modelo_basico.jpg" alt="Casa" class="col-md-7 order-2 order-md-1" />
+        <div class="col-md-5 text-center order-1 order-md-2">
+          <h3 class="text-black">Modelo Premier</h3>
+          <p class="fs-4 lead">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non eaque,
+            debitis iure delectus dolorem modi velit nemo assumenda sed officia
+            tempore illo neque inventore ea ratione reiciendis eos nesciunt
+            accusantium.
+          </p>
+          <button type="button" class="btn btn-outline-secondary my-3">
+            Más Información
+          </button>
+        </div>
+      </div>
+      <div class="row py-md-4 align-items-center">
+        <div class="col-md-5 text-center">
+          <h3 class="text-black">Modelo Elite</h3>
+          <p class="fs-4 lead">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
+            voluptates rem dignissimos. Dignissimos expedita repellendus dicta
+            perspiciatis maxime aut dolore sunt illo, provident exercitationem
+            odio numquam consequatur deleniti dolor architecto!
+          </p>
+          <button type="button" class="btn btn-outline-secondary my-3">
+            Más Información
+          </button>
+        </div>
+        <img src="img/modelo_basico.jpg" alt="Casa" class="col-md-7" />
+      </div>
+    </main>
+    <section class="container mt-4">
+      <h2 class="display-2" id="Galeria">Galería</h2>
+      <figure>
+        <div class="row mb-3 mb-md-4">
+          <img src="./img/imagen_1.jpg" alt="On road cabin with mountain on background" class="col-6 col-md-6" />
+          <img src="./img/imagen_3.jpg" alt="House outdoor roof covered area" class="col-6 col-md-6" />
+        </div>
+        <div class="row mb-3 mb-md-4">
+          <img src="./img/imagen_6.jpg" alt="Cabin in the bottom of a mountain" class="col-4 col-md-4" />
+          <img src="./img/imagen_2.jpg" alt="Modern house gray furniture" class="col-4 col-md-4" />
+          <img src="./img/imagen_4.jpg" alt="BBQ" class="col-4 col-md-4" />
+        </div>
+        <div class="row">
+          <img src="./img/imagen_5.jpg" alt="Cabin in front of a cabin" class="col-6 col-md-6" />
+          <img src="./img/imagen_7.jpg" alt="Cabin in the forest" class="col-6 col-md-6" />
+        </div>
+      </figure>
+    </section>
+    <footer class="page-footer mt-4 mt-md-5" id="Contacto">
+      <div class="container">
+        <form action="" class="row mx-3 mx-md-4 pt-3 pt-md-4">
+          <h3 class="text-white">Ingresa tu información para contactarte</h3>
+          <label class="form-label p-2 py-md-2">
+            Nombre
+            <input type="text" name="name" placeholder="Daniela" class="form-control">
+          </label>
+          <label class="form-label p-2 py-md-2">
+            Email address
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </label>
+          <label class="form-label p-2 py-md-2">
+            Número
+            <input type="number" name="name" placeholder="32140552" class="form-control">
+          </label>
+          <button type="button" class="btn btn-outline-secondary border border-white text-white">Enviar</button>
+        </form>
+      </div>
+      <div class="div-footer py-3 py-md-3 px-4 px-md-4 mt-4 mt-md-5">
+        <p class="m-0 m-md-0 text-center">
+          Todos los derechos reservados &copy;
+        </p>
+      </div>
+    </footer>
 
     <script src="/landig-page/js/bootstrap.bundle.js"></script>
     <script src="/landig-page/js/bootstrap.min.js"></script>
-</body>
+  </body>
 </html>
